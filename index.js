@@ -8,8 +8,7 @@ function start() {
         allmuds[i].style.visibility = "visible";
 
     var allmoles = document.querySelectorAll(".mole")
-    for (let i = 0; i < allmoles.length; i++)
-        allmoles[i].style.visibility = "visible";
+    
 
     setInterval(() => {
         let ran = Math.floor(Math.random() * 6)
@@ -19,8 +18,8 @@ function start() {
             for (let i = 0; i < allmoles.length; i++) {
                 allmoles[i].style.visibility = "hidden";
             }
-        }, 1000)
-    }, 1500)
+        }, 900)
+    }, 1000)
     var score = 0;
     // const clickfunction = () => {
     //     console.log("hit")
